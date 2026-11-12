@@ -1,0 +1,33 @@
+# Gradle / Kotlin / Android build outputs
+.gradle/
+.gradle-home/
+.kotlin/
+**/build/
+**/.cxx/
+**/.externalNativeBuild/
+captures/
+
+# Local SDK and IDE settings
+local.properties
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Generated distribution artifacts and local verification logs
+dist/
+verification/
+*.apk
+*.aab
+*.ap_
+*.hprof
+*.log
+
+# Credentials and signing material
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+keystore.properties
+signing.properties
